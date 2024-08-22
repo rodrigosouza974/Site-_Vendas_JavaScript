@@ -1,0 +1,49 @@
+/* Estilos gerais para o contêiner da página de detalhes do produto */
+.product-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Estilos para o título do produto */
+  .product-details-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Estilos para a descrição do produto */
+  .product-details-container p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  /* Estilos para o preço do produto */
+  .product-details-container .price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #e60023; /* Cor do preço */
+  }
+  
+  /* Estilos para a imagem do produto */
+  .product-details-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para o contêiner de carregamento e erro */
+  .product-details-container .loading,
+  .product-details-container .error {
+    font-size: 1rem;
+    color: #e60023; /* Cor para erros e mensagens de carregamento */
+    text-align: center;
+    margin-top: 20px;
+  }
+  
