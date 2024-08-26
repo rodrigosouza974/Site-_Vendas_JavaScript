@@ -14,7 +14,7 @@ function Home() {
 
     return (
         <div className="home">
-            <h1>Welcome to Our Store</h1>
+            <h1>Bem vindo ao Site de Vendas</h1>
             <ProductList products={products} />
         </div>
     );
